@@ -9,4 +9,4 @@ Most of this code has been tested on a STM32 Nucleo-64-F303RE
 
 Multitasking between the pwm control and serial communication is done using multithreading in FreeRTOS.
 ![mutex diagram of system.](/img/mutexDiagram.png)
-
+mutex diagram of system.
