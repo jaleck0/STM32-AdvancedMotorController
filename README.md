@@ -5,7 +5,7 @@ The PWM control is written using self made register control code.
 The servo feedback input is also custom register control code.
 Incomming serial messages are also stored in the FreeRTOS message queue.
 
-most of this code has been tested on a 
+Most of this code has been tested on a STM32 Nucleo-64-F303RE
 
 Multitasking between the pwm control and serial communication is done using multithreading in FreeRTOS.
 ![mutex diagram of system.](/img/mutexDiagram.png)
